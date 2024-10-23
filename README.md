@@ -14,5 +14,7 @@ The burn function allows for the destruction of tokens.
 The total supply is decreased, and the balance of the specified address is decreased by the same amount, but only if the address has enough tokens to burn.
 
 TokenName: Stores the name of the token.
+
 TokenAbbrv: Stores the abbreviation or symbol of the token.
+
 totalSupply: Stores the total number of tokens currently in circulation. It is updated whenever tokens are minted or burned.
